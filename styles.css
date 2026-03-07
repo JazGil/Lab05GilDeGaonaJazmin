@@ -8,12 +8,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root {
+    --color-texto: #333333;
+    --color-titulo: #000000;
+    --color-acento: #8B0000; /* Rojo oscuro tipo Harvard */
+    --color-fondo: #ffffff;
+    --color-borde: #e0e0e0;
+    --fuente-titulos: 'Georgia', 'Times New Roman', serif;
+    --fuente-cuerpo: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 /* Estilos del body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #e7eac7;
-    color: #8f89e8;
+    font-family: var(--fuente-cuerpo);
+    background-color: #f4f4f4; 
+    color: var(--color-texto);
     line-height: 1.6;
 }
 
@@ -38,9 +46,12 @@ body {
 }
 
 .nombre {
-    font-size: 2.5em;
-    color: #2c3e50;
+    font-family: var(--fuente-titulos);
+    font-size: 2.2em;
+    color: var(--color-titulo);
     margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .titulo {
@@ -69,7 +80,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* =====================================================
+/* ==========================================git===========
    ITEMS (Experiencia, Educación)
    ===================================================== */
 .item {
