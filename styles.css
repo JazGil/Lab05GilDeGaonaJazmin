@@ -63,30 +63,33 @@ body {
 }
 
 .contacto {
-    color: #7f8c8d;
-    font-size: 0.95em;
+    color: #666;
+    font-size: 0.9em;
 }
 
 /* =====================================================
    SECCIONES
    ===================================================== */
 .seccion {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .seccion h2 {
-    color: #2c3e50;
-    font-size: 1.5em;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 10px;
+    font-family: var(--fuente-titulos);
+    color: var(--color-titulo);
+    font-size: 1.3em;
+    border-bottom: 1px solid var(--color-borde);
+    padding-bottom: 8px;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 /* ==========================================git===========
    ITEMS (Experiencia, Educación)
    ===================================================== */
 .item {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .item h3 {
